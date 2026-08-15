@@ -4,7 +4,7 @@
 # Single-monitor solution nicked from
 # https://github.com/StefanAngelovski/Linux-Mint-Animated-Wallpapers/tree/master
 
-VIDEO="$HOME/Pictures/wallpapers/animated/frieren-wallpaper.mp4"
+VIDEO=${1:-}
 
 sleep 2
 
@@ -31,4 +31,3 @@ xterm -geometry 1x1+0+0 -e "sleep 0.1" >/dev/null 2>&1 &
 
 # Optional: force Desktop focus just in case
 wmctrl -a "Desktop" >/dev/null 2>&1
-

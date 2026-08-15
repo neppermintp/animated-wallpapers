@@ -1,6 +1,6 @@
 # Need the number of frames in the video so that the first and last can be cropped.
 
-set -euo pipefail
+set -eu
 
 frame_count() {
     ffprobe -count_frames -v error -select_streams v:0 -show_entries stream=nb_read_frames -of default=nokey=1:noprint_wrappers=1 "$1"
