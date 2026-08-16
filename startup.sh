@@ -3,8 +3,9 @@
 
 # Single-monitor solution nicked from
 # https://github.com/StefanAngelovski/Linux-Mint-Animated-Wallpapers/tree/master
-
-VIDEO=${1:-}
+PWD="$(pwd)"
+VIDEO_DEFAULT="$PWD/wallpaper/wallpaper.mp4"
+VIDEO=${1:-"$VIDEO_DEFAULT"}
 
 sleep 2
 

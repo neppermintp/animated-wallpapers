@@ -1,7 +1,7 @@
 PWD="$(shell pwd)"
 
 # Change this to your video's location.
-VIDEO="$(PWD)/example/frieren-wallpaper.mp4"
+VIDEO="$(PWD)/wallpaper/wallpaper.mp4"
 
 # xwinwrap repo location
 REPO="https://github.com/mmhobi7/xwinwrap.git"
